@@ -8,7 +8,7 @@ df_country = pd.read_csv(file,'r',
     	delimiter=",", 
     	header = 0)
 
-def country2region(country_reference, country_reference_type, region): # region / sub region  country_name alpha_2 alpha_3 country_code iso_3166_2 
+def country2region(country_reference, country_reference_type, region):
 	'''A function returning a:
 	 - country_name, region or sub_region 
 	using one of these country reference type:
